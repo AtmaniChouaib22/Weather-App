@@ -9,14 +9,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(160deg, rgba(255,254,228,1) 0%, rgba(113,110,255,1) 100%);
+  color: aliceblue;
 }
 
 .card {
-  border: 1px solid black;
+  width: 400px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 100px;
   padding: 50px;
+  background: linear-gradient(120deg, rgba(255,253,253,1) 0%, rgba(50,45,255,1) 100%);
+  border-radius: 20px;
 
 }
 .inputs {
@@ -24,19 +29,39 @@
 }
 
 .search-box {
-
+  display: flex;
+  gap: 10px;
 }
-#location {
-
+#loc{
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  
 }
 #sub-btn {
-
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
 .icon-box {
-
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+.location {
+  font-size: 2.2rem;
+}
+#icon {
+  width: 100px;
+  height: 100px;
 }
 .info {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    font-size: 1.6rem;
+    
 }
