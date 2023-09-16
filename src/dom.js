@@ -3,4 +3,5 @@ function clearInp() {
   input.value = "";
 }
 
+
 export default clearInp;
