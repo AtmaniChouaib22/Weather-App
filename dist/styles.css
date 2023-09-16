@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 50px;
+
+}
+.inputs {
+
+}
+
+.search-box {
+
+}
+#location {
+
+}
+#sub-btn {
+
+}
+.icon-box {
+
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
