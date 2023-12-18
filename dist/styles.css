@@ -3,13 +3,14 @@
   margin: 0;
   padding: 0;
 }
-
-.container {
+body {
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: linear-gradient(160deg, rgba(255,254,228,1) 0%, rgba(113,110,255,1) 100%);
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
   color: aliceblue;
 }
 
@@ -18,7 +19,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 100px;
+  gap: 50px;
   padding: 50px;
   background: linear-gradient(120deg, rgba(255,253,253,1) 0%, rgba(50,45,255,1) 100%);
   border-radius: 20px;
@@ -61,7 +62,6 @@
 .info {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     font-size: 1.6rem;
-    
 }
