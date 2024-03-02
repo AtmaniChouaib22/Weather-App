@@ -1,4 +1,4 @@
-<h1>the odin project: Weather app Project</h1>
+<h1>Weather app Project</h1>
 <p>built using <a href="https://www.weatherapi.com/">WeatherAPI</a>, javascript, html, css, webpack, Eslint and prettier config</p>
 
 <h4>this project covers: </h4>
